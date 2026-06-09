@@ -61,6 +61,7 @@ Claude Code 会使用 `/update-config` skill 自动写入 `~/.claude/settings.js
 - `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1` 关闭实验性功能，避免中转不支持的 API 调用
 - 中转服务地址 `https://s.sjtuguoxue.space/` 由国学社维护，如遇故障请联系管理员
 - 模型可用性可能随时调整，以管理员通知为准
+- **同一个 Key 也可用于 `gpt-image-2` skill 的图像生成服务**，写入 `config.json` 的 `api_key` 字段即可
 
 ## 故障排查
 

@@ -43,7 +43,7 @@ python3 ~/.mavis/skills/gpt-image-2/scripts/generate.py \
 
 - API 返回非 200 → 报告具体错误码和信息给用户
 - 网络超时（120s）→ 提示用户稍后重试
-- API key 无效 → 提示用户更新 `~/.claude/skills/gpt-image-2/config.json`
+- API key 无效 → 提示用户更新 `~/.claude/skills/gpt-image-2/config.json`（可使用国学社中转站 `sjtuguoxue-relay` 的同一个 Key）
 
 ## Examples
 
