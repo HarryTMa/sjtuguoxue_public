@@ -1,0 +1,4 @@
+{
+  "api_url": "http://107.167.10.26:3006/v1/images/generations",
+  "api_key": "${OPENAI_API_KEY}"
+}
